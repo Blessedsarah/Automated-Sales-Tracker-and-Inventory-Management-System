@@ -58,6 +58,78 @@ The system is structured into different tables to ensure efficient data organiza
 | **Vendors** | Contains supplier details (randomly generated for privacy). |
 | **Inventory** | Tracks current stock levels, updated automatically based on purchases and sales. |
 
+# Analysis & Key Insights
+## Overview
+![image](https://github.com/user-attachments/assets/8c6a4253-6ad7-4abf-9a79-a06228554d0c)
+- **₦827.0K Total Sales** – This represents the overall revenue generated from all product sales.
+   - **36.47% Increase Vs Last Week** – Sales have significantly improved, indicating positive growth.
+
+- **₦346.8K Profit/Loss** – This is the net profit after deducting total costs from sales revenue.
+
+- **₦805.8K Total Cost** – The total expenditure on purchasing stock.
+
+- **₦325.6K Stock Amount** – The total current value of inventory.
+
+- **46 Products** – The total number of distinct products being tracked.
+
+- **38 Customers** – The total number of unique customers who have made purchases.
+
+## Profit Margin
+- **41.93%** – This indicates a healthy profit margin, meaning the business is maintaining good profitability on products.
+![image](https://github.com/user-attachments/assets/a782fccc-3864-40a2-bb46-73053aca3dcb)
+
+## Sales Performance Analysis**
+- **Top-Selling Products:** These items are bringing in the most sales.
+  
+- **Least-Selling Products:** These items are bringing in the least sales.
+  
+![image](https://github.com/user-attachments/assets/e45aebc3-7f21-4b10-a230-9b9ad36c53b1)
+
+
+## Sales Channel Performance
+A **pie chart analysis** shows which platforms are driving the most sales:
+![image](https://github.com/user-attachments/assets/f882d641-592c-4c3c-a276-d50b2425dca7)
+
+| Sales Channel | Sales Amount |
+|--------------|-------------|
+| **TikTok** | ₦573,000 |
+| **WhatsApp** | ₦159,500 |
+| **Instagram** | ₦83,000 |
+| **Offline Sales** | ₦11,500 |
+
+### Key Observations:
+- **TikTok dominates** as the top-performing sales channel.  
+
+- **Instagram is underperforming**, indicating the need for better engagement strategies on that platform.
+
+ - **Offline sales** are the least performing chaneel, suggesting a weak in-person customer base.  
+
+
+## Inventory Analysis
+### Stock Status
+- **5 Products are Out of Stock** – The red alert emphasizes the need for urgent restocking.
+  
+### Inventory Breakdown
+- **Total Unit Purchased: 335**
+- **Total Stock Available: 143** – The number of unsold products.
+- **Total Sales: 192** – The number of products sold so far.
+
+**Insight:**  
+- The stock-to-sales ratio suggests that **more than half of the inventory is already sold**. 
+- **143 units remaining** means there’s still stock available, but some products need urgent replenishment.
+
+### **🔄 Restock Alert**
+- A section lists **products that need urgent restocking**, including:
+  - **Infuser Bottle**
+  - **Matte Flask**
+  - **Hoho Cup**
+  - **Hair Clipper**
+  - **Executive Journal**  
+  - ... and more.
+
+**Actionable Insight:**  
+- The business should prioritize restocking high-demand products, especially those marked as "Out of Stock."
+
 # How This System Transforms Business Operations  
 - **Saves time** by automating repetitive tasks like data entry and calculations.  
 - **Provides real-time insights** into sales performance and inventory levels.  
