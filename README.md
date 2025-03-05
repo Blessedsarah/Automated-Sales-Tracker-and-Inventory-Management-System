@@ -44,6 +44,20 @@ A dynamic dashboard built using Pivot Tables and Excel Charts to provide key bus
 
 ![image](https://github.com/user-attachments/assets/7ecbc532-0046-493f-84e4-c06d19c3ddc0)
 
+# Data Structure & Workflow
+
+The system is structured into different tables to ensure efficient data organization:
+
+| Table Name  | Description |
+|-------------|------------|
+| **Sales** | Contains all sales transactions with details like date, product, quantity, amount and customer. |
+| **Purchase** | Stores all purchase transactions with supplier details and cost price. |
+| **Products** | Lists product names, categories, selling prices, and cost prices. |
+| **Products Categories** | Lists product categories. |
+| **Customers** | Stores customer names and information (randomly generated for privacy). |
+| **Vendors** | Contains supplier details (randomly generated for privacy). |
+| **Inventory** | Tracks current stock levels, updated automatically based on purchases and sales. |
+
 # How This System Transforms Business Operations  
 - **Saves time** by automating repetitive tasks like data entry and calculations.  
 - **Provides real-time insights** into sales performance and inventory levels.  
