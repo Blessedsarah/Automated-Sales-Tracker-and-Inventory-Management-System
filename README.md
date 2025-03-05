@@ -1,28 +1,36 @@
 # Automated-Sales-Tracker-and-Inventory-Management-System
 ## Project Overview
 Managing sales and inventory manually can be overwhelming, especially for small businesses. This project is an automated Excel-based Sales Tracker & Inventory Management System built for my business, BOXITBYLOLA (a gifting brand). This system simplifies sales tracking, automates stock updates, and generates real-time insights through a dynamic dashboard.
+## Dashboard
+![image](https://github.com/user-attachments/assets/963a8a99-feb0-4478-b53c-30a8a12920db)
 
 ## Key Features
-1️⃣ Automated Sales & Purchase Entry
-✅ Macros & VBA Automation: Recorded macros assigned to “SUBMIT” buttons for automatic data entry.
-✅ Dynamic Data Validation: Selecting a product category auto-populates product names.
-✅ Automated Price Lookup: Uses XLOOKUP to fetch product prices based on selection.
-✅ Real-Time Calculation: Uses the PRODUCT() function to multiply quantity by price for automatic total computation.
+### Automated Sales & Purchase Entry
+This system eliminates manual data entry by automating the sales and purchase recording process.
+- **Macros & VBA Automation:** Recorded macros are assigned to the “SUBMIT” buttons, allowing users to enter sales or purchase details once, and the data is automatically recorded in the respective tables. This reduces human error and saves time.
 
-2️⃣ Inventory Management System
-✅ Real-Time Stock Updates: Uses SUMIF() to track purchases and sales per product.
-✅ Stock Level Calculation: Automatically calculates remaining stock using (Purchase - Sales).
-✅ Stock Alerts: Uses the IF() function to generate remarks like:
+- **Dynamic Data Validation:** Instead of manually searching for products, the system ensures that selecting a Product Category from a dropdown menu dynamically filters and displays only the relevant products under that category.
 
-"✅ In Stock"
-"⚠️ Low Stock"
-"❌ Out of Stock"
-3️⃣ Interactive Sales Dashboard
-✅ Pivot Tables for Summary Analysis
-✅ Dynamic Data Visualizations for sales trends, product performance, and customer insights.
-✅ Key Business Insights:
+- **Automated Price Lookup with XLOOKUP:** When a product is selected, its price or cost is automatically retrieved from the product table using the XLOOKUP function, eliminating the need for manual price entry.
 
-Best-selling products
-Peak sales periods
-Revenue breakdown
-Customer purchase behavior
+- **Real-Time Total Calculation:** Once a user inputs the quantity, the PRODUCT() function instantly calculates the total sales (Quantity × Price) and total cost (Quantity × Price) for each entry, ensuring accuracy without the need for manual computation.
+
+![image](https://github.com/user-attachments/assets/5194b6bb-d63e-47f2-a0d6-2c3fee77ae2b)
+
+### Inventory Management System
+The inventory system ensures real-time tracking of stock levels, preventing overstocking or running out of stock.
+- **Real-Time Stock Updates with SUMIF():** The system automatically sums up the total purchases and total sales for each product using SUMIF(), giving an accurate count of items in stock at any moment.
+
+- **Stock Level Calculation:** The remaining stock quantity is dynamically calculated using the formula:
+Stock = Total Purchases - Total Sales
+This ensures the system always reflects the latest stock levels.
+
+- **Automated Stock Alerts with IF():** The system provides clear stock status updates based on remaining inventory levels:
+  - In Stock: When the stock level is sufficient.
+  - Low Stock: When stock levels drop below a predefined threshold.
+  - Out of Stock: When stock is depleted, indicating an urgent need for restocking.
+
+![image](https://github.com/user-attachments/assets/608fac57-8207-4b55-8ed9-30fd94cdd944)
+
+
+
