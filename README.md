@@ -75,7 +75,8 @@ The system is structured into different tables to ensure efficient data organiza
 - **38 Customers** – The total number of unique customers who have made purchases.
 
 ## Profit Margin
-- **41.93%** – This indicates a healthy profit margin, meaning the business is maintaining good profitability on products.
+**41.93%** – This indicates a healthy profit margin, meaning the business is maintaining good profitability on products.
+
 ![image](https://github.com/user-attachments/assets/a782fccc-3864-40a2-bb46-73053aca3dcb)
 
 ## Sales Performance Analysis**
@@ -88,14 +89,8 @@ The system is structured into different tables to ensure efficient data organiza
 
 ## Sales Channel Performance
 A **pie chart analysis** shows which platforms are driving the most sales:
-![image](https://github.com/user-attachments/assets/f882d641-592c-4c3c-a276-d50b2425dca7)
 
-| Sales Channel | Sales Amount |
-|--------------|-------------|
-| **TikTok** | ₦573,000 |
-| **WhatsApp** | ₦159,500 |
-| **Instagram** | ₦83,000 |
-| **Offline Sales** | ₦11,500 |
+![image](https://github.com/user-attachments/assets/f882d641-592c-4c3c-a276-d50b2425dca7)
 
 ### Key Observations:
 - **TikTok dominates** as the top-performing sales channel.  
@@ -110,7 +105,7 @@ A **pie chart analysis** shows which platforms are driving the most sales:
 - **5 Products are Out of Stock** – The red alert emphasizes the need for urgent restocking.
   
 ### Inventory Breakdown
-- **Total Unit Purchased: 335**
+**Total Unit Purchased: 335**
 - **Total Stock Available: 143** – The number of unsold products.
 - **Total Sales: 192** – The number of products sold so far.
 
@@ -119,16 +114,15 @@ A **pie chart analysis** shows which platforms are driving the most sales:
 - **143 units remaining** means there’s still stock available, but some products need urgent replenishment.
 
 ### **🔄 Restock Alert**
-- A section lists **products that need urgent restocking**, including:
-  - **Infuser Bottle**
-  - **Matte Flask**
-  - **Hoho Cup**
-  - **Hair Clipper**
-  - **Executive Journal**  
-  - ... and more.
+A section lists **products that need urgent restocking**, including:
+- Infuser Bottle
+- Matte Flask
+- Comb Set
+- Hoho Cup
+- Hair Clipper
+- ... and more
 
-**Actionable Insight:**  
-- The business should prioritize restocking high-demand products, especially those marked as "Out of Stock."
+The business should prioritize restocking high-demand products, especially those marked as "Out of Stock."
 
 # How This System Transforms Business Operations  
 - **Saves time** by automating repetitive tasks like data entry and calculations.  
