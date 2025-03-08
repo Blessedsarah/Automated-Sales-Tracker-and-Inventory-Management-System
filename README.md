@@ -101,6 +101,9 @@ A **pie chart analysis** shows which platforms are driving the most sales:
 
 
 ## Inventory Analysis
+
+![image](https://github.com/user-attachments/assets/d08ccabb-23c7-4350-9241-be9b3608b913)
+
 ### Stock Status
 - **5 Products are Out of Stock** – The red alert emphasizes the need for urgent restocking.
   
@@ -113,7 +116,7 @@ A **pie chart analysis** shows which platforms are driving the most sales:
 - The stock-to-sales ratio suggests that **more than half of the inventory is already sold**. 
 - **143 units remaining** means there’s still stock available, but some products need urgent replenishment.
 
-### **🔄 Restock Alert**
+### Restock Alert
 A section lists **products that need urgent restocking**, including:
 - Infuser Bottle
 - Matte Flask
@@ -130,5 +133,5 @@ The business should prioritize restocking high-demand products, especially those
 - **Prevents stock issues** by automatically flagging low-stock items.  
 - **Improves decision-making** with data-driven insights from the dashboard.  
 
-This all-in-one Excel solution ensures that businesses can efficiently track sales, profits, and stock levels with minimal manual effort! 🚀🔥
+This all-in-one Excel solution ensures that my business can efficiently track sales, profits, and stock levels with minimal manual effort.
 
